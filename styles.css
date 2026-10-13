@@ -1,0 +1,92 @@
+body {
+  background-color: #f4f4f4;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.tarjeta-perfil {
+  background: white;
+  width: 380px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+.contenedor-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+}
+
+.contenedor-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tarjeta-perfil h2 {
+  margin-top: 55px;
+  margin-bottom: 5px;
+  color: #222;
+  font-size: 24px;
+}
+
+.cargo {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.descripcion {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.enlaces {
+  margin-bottom: 25px;
+}
+
+.enlaces a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.enlaces a:hover {
+  text-decoration: underline;
+}
+
+.btn-conectar {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 60%;
+}
+
+.btn-conectar:hover {
+  background-color: #2980b9;
+}
